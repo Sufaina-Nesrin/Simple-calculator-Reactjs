@@ -28,7 +28,7 @@ function Calculator(props) {
       setFinalResult(result);
       setNumber("");
     } catch (e) {
-      setFinalResult("Invalid Expression");
+      setFinalResult("Syntax Error");
       setNumber("");
     }
   }
